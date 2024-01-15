@@ -1,0 +1,14 @@
+    .divider {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        margin-top:  70px;
+    }
+
+    .divider::before, .divider::after {
+        flex: 1;
+        content: '';
+        padding: 3px;
+        background-color: rgb(89, 72, 72);
+        margin: 5px;
+    }

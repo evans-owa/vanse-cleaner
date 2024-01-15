@@ -1,0 +1,28 @@
+
+body {
+
+    background: url(../image/brush.jpg) no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    color: rgb(18, 167, 231);
+}
+
+.card
+{
+   /*background:  url(../image/brush.jpg) no-repeat;*/
+   background: transparent;
+   border: 2px solid rgba(255, 255, 255, 0.816);
+   backdrop-filter: blur(20px);
+   box-shadow:  0 0 30px rgba(196, 138, 138, 0.5);
+   border-radius: 20px;
+}
+
+.row label{
+    color: rgb(255, 255, 255);
+    transform: translateY(-50%);
+}
